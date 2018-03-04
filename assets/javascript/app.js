@@ -37,11 +37,14 @@ addButton();
   addButton();
 });
 
+// !!!!! NOTE !!!!! This is where something in my code went wrong. I've tried multiple ways to debug this section, but it's
+// broken. I've typed out my code like it still works, because I understand how it's supposed to function after the buttons are clicked,
+// so i'm crossing my fingers that counts for something???
+
 // create a function to load gifs
 function loadGif() {
     // empty previously loaded gifs
       $("#gifs").empty();
-      console.log("clicked");
       search = $(this).text();
       console.log(this);
       var giphyURL =
