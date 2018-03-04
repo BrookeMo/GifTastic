@@ -27,3 +27,39 @@ body {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+#addButton {
+    padding: 15px;
+    margin: 5px;
+}
+
+label {
+    color: #fff;
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #999;
+    padding: 5px;
+}
+
+#addNewButton {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 15px 5px;
+    margin-top: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #78BCD3;
+    border: 1px #fff;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+}
+#addNewButton:active {
+    background-color: #78BCD3;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
